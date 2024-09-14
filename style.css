@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 1500px;
+    height: 122px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.top-banner {
+    width: 1500px;
+    height: 41px;
+    padding: 10px 0px 10px 0px;
+    gap: 23px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #ff9500;
+}
+
+.top-banner h1 {
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar {
+    width: 1400px;
+    height: 81px;
+    padding: 16px 60px 20px 60px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #F1F1F3
+}
+
+.container {
+    display: flex;
+    width: 552px;
+    height: 45px;
+    margin-right: 50px;
+    opacity: 0px;
+}
+
+.logo {
+    width: 44px;
+    height: 44px;
+    padding: 5.7px;
+    margin-right: 50px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: #ff9500;
+}
+
+.shape {
+    width: 32.59px;
+    height: 32.59px;
+    top: 5.7px;
+    left: 5.7px;
+    padding: 3.4px 2.72px 2.72px 3.4px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.shape-17 {
+    width: 26.48px;
+    height: 26.48px;
+    top: 3.4px;
+    left: 3.4px;
+    gap: 0px;
+    opacity: 0px;
+    background: #ffffff;
+    clip-path: polygon(32% 0, 88% 0, 51% 39%, 82% 60%, 52% 100%, 0 100%, 39% 62%, 2% 35%);
+}
+
+.link-container {
+    width: 458px;
+    height: 45px;
+    opacity: 0px;
+    line-height: 42px;
+}
+
+.link-container a {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-right: 26px;
+    color: #262626;
+    transition: all 1s ease;
+}
+
+.link-container a:hover,
+a:active {
+    width: Hug (80px) px;
+    height: Hug (45px) px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    background: #f1f1f3;
+}
