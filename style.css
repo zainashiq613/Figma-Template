@@ -173,15 +173,14 @@ a:active {
 }
 
 .data-container {
-    width: 941px;
-    height: 166px;
+    width: 604px;
+    height: 266px;
     margin-top: 16px;
-    /* position: relative; */
 }
 
 .sub-container {
     display: flex;
-    width: 643px;
+    width: 603px;
     height: 78px;
     padding: 12px 24px 12px 12px;
     gap: 10px;
@@ -241,6 +240,7 @@ a:active {
     margin-left: 35.56px;
     background: #262626;
     border-radius: 5px;
+    margin-top: -35px;
 }
 
 .vector2 {
@@ -260,4 +260,92 @@ a:active {
     background: #262626;
     border-radius: 5px;
     rotate: 10deg;
+}
+
+.text-container {
+    width: 941px;
+    height: 72px;
+    gap: 6px;
+}
+
+.text-container h2 {
+    width: 591px;
+    height: 42px;
+    margin-top: 20px;
+    opacity: 0px;
+    font-family: Be Vietnam Pro;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: #262626;
+}
+
+.text-container p {
+    width: 641px;
+    height: 24px;
+    margin-top: 10px;
+    opacity: 0px;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.btn-container {
+    width: 248px;
+    height: 49px;
+    /* margin-top: 62px; */
+    margin: 62px auto auto auto;
+    opacity: 0px;
+}
+
+.btn-container a:first-child {
+    width: Hug (154px)px;
+    height: Hug (49px)px;
+    padding: 14px 20px 14px 20px;
+    gap: 8px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #FF9500;
+    color: #ffffff;
+}
+
+.btn-container a:last-child {
+    width: Hug (127px)px;
+    height: Hug (49px)px;
+    padding: 14px 20px 14px 20px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #262626;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3
+}
+
+.logo-container {
+    position: relative;
+    width: 1390px;
+    height: 116px;
+    top: 87px;
+    left: 81px;
+    padding: 24px 0px 0px 0px;
+    border-radius: 8px;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3
+}
+
+.card {
+    width: 175.86px;
+    border: 1px solid #000;
+    height: 68px;
+    padding: 24px 30px 20px 30px;
+    gap: 30px;
+}
+
+.card img{
+    width: 100px;
 }
