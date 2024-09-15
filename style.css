@@ -327,6 +327,7 @@ a:active {
 }
 
 .logo-container {
+    display: flex;
     position: relative;
     width: 1390px;
     height: 116px;
@@ -339,13 +340,18 @@ a:active {
 }
 
 .card {
-    width: 175.86px;
-    border: 1px solid #000;
+    width: 200.86px;
+    border-right: 1px solid #f1f1f3;
     height: 68px;
-    padding: 24px 30px 20px 30px;
-    gap: 30px;
+    line-height: 58px;
+    padding: 16px 60px 18px 40px;
+}
+
+.card:last-child{
+    border: 0px;
 }
 
 .card img{
-    width: 100px;
+    width: 90px;
+    margin: auto;
 }
