@@ -379,8 +379,6 @@ a:active {
     height: 935px;
     top: 250px;
     left: 80px;
-    border: 1px solid #000;
-    display: flex;
 }
 
 .benefits-text {
@@ -432,4 +430,74 @@ a:active {
     background: #FCFCFD;
     border: 1px solid #F1F1F3;
     color: #262626;
+}
+
+.benefits-item {
+    background: #f1f1f3;
+    border: 1px solid #000;
+    position: relative;
+    top: 60px;
+    width: 1379px;
+    height: 766px;
+}
+
+.benefits .row1{
+    display: flex;
+}
+
+.item {
+    width: 413px;
+    height: 346px;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.item h1 {
+    width: 333px;
+    height: 44px;
+    font-family: Be Vietnam Pro;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    color: #262626;
+}
+
+.item h2 {
+    width: 333px;
+    height: 30px;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #333333;
+}
+
+.item p {
+    width: 333px;
+    height: 48px;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4C4C4D;
+}
+
+.item a {
+    position: relative;
+    top: 130px;
+    left: 284px;
+    padding: 14px;
+    border-radius: 6px;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3
+}
+
+.item a i{
+    rotate: -30deg;
 }
