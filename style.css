@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    background: #f1f1f3;
+}
+
 header {
     width: 1490px;
     height: 122px;
@@ -70,20 +74,12 @@ header {
 .shape {
     width: 32.59px;
     height: 32.59px;
-    top: 5.7px;
-    left: 5.7px;
     padding: 3.4px 2.72px 2.72px 3.4px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .shape-17 {
     width: 26.48px;
     height: 26.48px;
-    top: 3.4px;
-    left: 3.4px;
-    gap: 0px;
-    opacity: 0px;
     background: #ffffff;
     clip-path: polygon(37% 0,
             76% 0,
@@ -433,20 +429,14 @@ a:active {
 }
 
 .benefits-item {
-    background: #f1f1f3;
-    border: 1px solid #000;
     position: relative;
     top: 60px;
     width: 1379px;
-    height: 766px;
-}
-
-.benefits .row1{
-    display: flex;
+    height: 719px;
 }
 
 .item {
-    width: 413px;
+    width: 439px;
     height: 346px;
     padding: 40px;
     gap: 40px;
@@ -498,6 +488,89 @@ a:active {
     border: 1px solid #F1F1F3
 }
 
-.item a i{
+.item a i {
     rotate: -30deg;
+}
+
+.row1,
+.row2 {
+    width: 1379px;
+    height: 370px;
+    gap: 30px;
+    display: flex;
+}
+
+/* .courses-container {
+    border: 1px solid #000;
+    position: relative;
+    width: 1379px;
+    height: 2049px;
+    top: 267px;
+    left: 81px;
+}
+
+.courses-text {
+    display: flex;
+    justify-content: space-between;
+    width: 1379px;
+    height: 109px;
+}
+
+.courses-text a {
+    align-self: flex-end;
+}
+
+.courses-text div {
+    width: 933px;
+    height: 109px;
+}
+
+.courses-text h1 {
+    width: 933px;
+    height: 57px;
+    font-family: Be Vietnam Pro;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #262626;
+}
+
+.courses-text div p {
+    width: 933px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #59595A;
+
+}
+
+.courses-text a {
+    width: 96px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    color: #262626;
+} */
+
+.c-item {
+    width: 629.5px;
+    height: 613px;
+    padding: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3
+}
+
+.img-container img {
+    width: 549.5px;
+    height: 266px;
+    border-radius: 8px;
 }
