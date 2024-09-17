@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Be Vietnam Pro;
 }
 
 body {
@@ -34,7 +37,6 @@ header {
     height: 21px;
     gap: 0px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -57,7 +59,7 @@ header {
 
 .container {
     display: flex;
-    width: 552px;
+    width: 592px;
     height: 45px;
     margin-right: 50px;
     opacity: 0px;
@@ -101,14 +103,13 @@ header {
 }
 
 .link-container {
-    width: 458px;
+    width: 498px;
     height: 45px;
     opacity: 0px;
     line-height: 42px;
 }
 
 .link-container a {
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -130,10 +131,8 @@ a:active {
 }
 
 .login {
-    width: 169px;
+    width: 178px;
     height: 45px;
-    gap: 30px;
-    opacity: 0px;
     line-height: 21px;
 }
 
@@ -143,7 +142,6 @@ a:active {
     margin-right: 30px;
     opacity: 0px;
     color: #262626;
-    font-family: Be Vietnam Pro;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -171,14 +169,14 @@ a:active {
 }
 
 .data-container {
-    width: 604px;
+    width: 654px;
     height: 266px;
     margin-top: 16px;
 }
 
 .sub-container {
     display: flex;
-    width: 603px;
+    width: 678px;
     height: 78px;
     padding: 12px 24px 12px 12px;
     gap: 10px;
@@ -206,11 +204,9 @@ a:active {
     padding: 5px 3px 1.5px 15px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .sub-container h1 {
-    font-family: Be Vietnam Pro;
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
@@ -218,7 +214,6 @@ a:active {
 }
 
 .sub-container h1 span {
-    font-family: Be Vietnam Pro;
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
@@ -267,11 +262,10 @@ a:active {
 }
 
 .text-container h2 {
-    width: 591px;
+    width: 678px;
     height: 42px;
     margin-top: 20px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 30px;
     font-weight: 500;
     line-height: 42px;
@@ -284,44 +278,40 @@ a:active {
     height: 24px;
     margin-top: 10px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-
 }
 
 .btn-container {
-    width: 248px;
+    width: 267px;
     height: 49px;
-    /* margin-top: 62px; */
     margin: 62px auto auto auto;
-    opacity: 0px;
 }
 
 .btn-container a:first-child {
-    width: Hug (154px)px;
-    height: Hug (49px)px;
+    width: Hug (154px) px;
+    height: Hug (49px) px;
     padding: 14px 20px 14px 20px;
     gap: 8px;
     border-radius: 6px;
     opacity: 0px;
-    background: #FF9500;
+    background: #ff9500;
     color: #ffffff;
 }
 
 .btn-container a:last-child {
-    width: Hug (127px)px;
-    height: Hug (49px)px;
+    width: Hug (127px) px;
+    height: Hug (49px) px;
     padding: 14px 20px 14px 20px;
     gap: 8px;
     border-radius: 6px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
     color: #262626;
-    background: #FFFFFF;
-    border: 1px solid #F1F1F3
+    background: #ffffff;
+    border: 1px solid #f1f1f3;
 }
 
 .logo-container {
@@ -333,8 +323,8 @@ a:active {
     left: 81px;
     padding: 24px 0px 0px 0px;
     border-radius: 8px;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
 }
 
 .card {
@@ -362,7 +352,7 @@ a:active {
     left: 80px;
     border-radius: 10px;
     background: #00000033;
-    border: 16px solid #F7F7F8
+    border: 16px solid #f7f7f8;
 }
 
 .benefits img {
@@ -383,11 +373,7 @@ a:active {
     display: flex;
     justify-content: space-between;
     width: 1379px;
-    height: 109px;
-}
-
-.benefits-text a {
-    align-self: flex-end;
+    height: 129px;
 }
 
 .benefits-text div {
@@ -398,7 +384,6 @@ a:active {
 .benefits-text h1 {
     width: 933px;
     height: 57px;
-    font-family: Be Vietnam Pro;
     font-size: 38px;
     font-weight: 600;
     line-height: 57px;
@@ -411,22 +396,21 @@ a:active {
     height: 48px;
     gap: 0px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #59595A;
-
+    color: #59595a;
 }
 
 .benefits-text a {
-    width: 96px;
+    align-self: flex-end;
+    width: 103px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 6px;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3;
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
     color: #262626;
 }
 
@@ -443,13 +427,12 @@ a:active {
     padding: 40px;
     gap: 40px;
     border-radius: 10px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .item h1 {
     width: 333px;
     height: 44px;
-    font-family: Be Vietnam Pro;
     font-size: 60px;
     font-weight: 700;
     line-height: 24px;
@@ -458,9 +441,9 @@ a:active {
 }
 
 .item h2 {
+    margin-top: 30px;
     width: 333px;
     height: 30px;
-    font-family: Be Vietnam Pro;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -472,22 +455,21 @@ a:active {
 .item p {
     width: 333px;
     height: 48px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #4C4C4D;
+    color: #4c4c4d;
 }
 
 .item a {
     position: relative;
-    top: 130px;
-    left: 284px;
+    top: 80px;
+    left: 289px;
     padding: 14px;
     border-radius: 6px;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
 }
 
 .item a i {
@@ -514,11 +496,7 @@ a:active {
     display: flex;
     justify-content: space-between;
     width: 1379px;
-    height: 109px;
-}
-
-.courses-text a {
-    align-self: flex-end;
+    height: 128px;
 }
 
 .courses-text div {
@@ -529,7 +507,6 @@ a:active {
 .courses-text h1 {
     width: 933px;
     height: 57px;
-    font-family: Be Vietnam Pro;
     font-size: 38px;
     font-weight: 600;
     line-height: 57px;
@@ -542,22 +519,21 @@ a:active {
     height: 48px;
     gap: 0px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #59595A;
-
+    color: #59595a;
 }
 
 .courses-text a {
-    width: 96px;
+    align-self: flex-end;
+    width: 104px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 6px;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3;
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
     color: #262626;
 }
 
@@ -573,8 +549,8 @@ a:active {
     height: 613px;
     padding: 40px;
     border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #F1F1F3
+    background: #ffffff;
+    border: 1px solid #f1f1f3;
 }
 
 .img-container img {
@@ -604,13 +580,12 @@ a:active {
 }
 
 .time div li {
-    width: 86px;
+    width: 90px;
     height: 34px;
     padding: 8px 14px 8px 14px;
     border-radius: 6px;
-    background: #FFFFFF;
-    border: 1px solid #F1F1F3;
-    font-family: Be Vietnam Pro;
+    background: #ffffff;
+    border: 1px solid #f1f1f3;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.71px;
@@ -626,7 +601,6 @@ a:active {
 .img-para h2 {
     width: 549.5px;
     height: 30px;
-    font-family: Be Vietnam Pro;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -637,12 +611,11 @@ a:active {
 .img-para p {
     width: 549.5px;
     height: 72px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #4C4C4D;
+    color: #4c4c4d;
 }
 
 .img-btn {
@@ -650,9 +623,9 @@ a:active {
     height: 49px;
     padding: 14px 24px 14px 24px;
     border-radius: 6px;
-    background: #F7F7F8;
+    background: #f7f7f8;
     text-align: center;
-    border: 1px solid #F1F1F3
+    border: 1px solid #f1f1f3;
 }
 
 .img-btn a {
@@ -686,22 +659,17 @@ a:active {
     display: flex;
     justify-content: space-between;
     width: 1379px;
-    height: 109px;
-}
-
-.testimonial-text a {
-    align-self: flex-end;
+    height: 128px;
 }
 
 .testimonial-text div {
     width: 933px;
-    height: 109px;
+    height: 129px;
 }
 
 .testimonial-text h1 {
     width: 933px;
     height: 57px;
-    font-family: Be Vietnam Pro;
     font-size: 38px;
     font-weight: 600;
     line-height: 57px;
@@ -714,22 +682,21 @@ a:active {
     height: 48px;
     gap: 0px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #59595A;
-
+    color: #59595a;
 }
 
 .testimonial-text a {
-    width: 96px;
+    align-self: flex-end;
+    width: 104px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 6px;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3;
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
     color: #262626;
 }
 
@@ -744,8 +711,8 @@ a:active {
     width: 673.5px;
     height: 250px;
     border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #F1F1F3;
+    background: #ffffff;
+    border: 1px solid #f1f1f3;
 }
 
 .t-para {
@@ -757,7 +724,6 @@ a:active {
 .t-para p {
     width: 549.5px;
     height: 72px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -770,8 +736,8 @@ a:active {
     padding: 24px 40px 24px 40px;
     display: flex;
     justify-content: space-between;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
 }
 
 .about-t div:first-child {
@@ -787,8 +753,8 @@ a:active {
     height: 49px;
     padding: 14px 16px 14px 16px;
     border-radius: 6px;
-    background: #F7F7F8;
-    border: 1px solid #F1F1F3;
+    background: #f7f7f8;
+    border: 1px solid #f1f1f3;
     text-align: center;
 }
 
@@ -818,7 +784,7 @@ a:active {
     display: flex;
     justify-content: space-between;
     width: 1379px;
-    height: 109px;
+    height: 129px;
 }
 
 .pricing-text a {
@@ -833,7 +799,6 @@ a:active {
 .pricing-text div:first-child h1 {
     width: 933px;
     height: 57px;
-    font-family: Be Vietnam Pro;
     font-size: 38px;
     font-weight: 600;
     line-height: 57px;
@@ -846,13 +811,11 @@ a:active {
     height: 48px;
     gap: 0px;
     opacity: 0px;
-    font-family: Be Vietnam Pro;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #59595A;
-
+    color: #59595a;
 }
 
 .pricing-text div:last-child {
@@ -871,14 +834,12 @@ a:active {
     height: 45px;
     padding: 12px 24px 12px 24px;
     border-radius: 6px;
-    background: #FF9500;
+    background: #ff9500;
     color: #ffffff;
-    font-family: Be Vietnam Pro;
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     text-align: left;
-
 }
 
 .pricing-text div:last-child a:last-child {
@@ -886,12 +847,11 @@ a:active {
     height: 45px;
     padding: 12px 24px 12px 24px;
     border-radius: 100px;
-    font-family: Be Vietnam Pro;
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     text-align: left;
-    color: #4C4C4D;
+    color: #4c4c4d;
 }
 
 .pricing-item {
@@ -901,7 +861,7 @@ a:active {
     height: 982px;
     padding: 50px;
     border-radius: 12px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .pri-row-1 {
@@ -915,8 +875,8 @@ a:active {
     height: 882px;
     padding: 40px 24px 24px 24px;
     border-radius: 12px;
-    background: #FCFCFD;
-    border: 1px solid #F1F1F3;
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
 }
 
 .name {
@@ -924,12 +884,11 @@ a:active {
     height: 50px;
     padding: 10px 22px 10px 22px;
     border-radius: 4px;
-    background: #FFF9F0;
-    border: 1px solid #FFEACC;
+    background: #fff9f0;
+    border: 1px solid #ffeacc;
 }
 
 .name h3 {
-    font-family: Be Vietnam Pro;
     font-size: 18px;
     font-weight: 500;
     line-height: 30.42px;
@@ -946,11 +905,11 @@ a:active {
 
 .price span {
     font-size: 44px;
-    color: #4C4C4D;
+    color: #4c4c4d;
 }
 
 .price p {
-    color: #4C4C4D;
+    color: #4c4c4d;
     line-height: 39px;
 }
 
@@ -965,7 +924,6 @@ a:active {
 .feature-container h3 {
     width: 486.5px;
     height: 27px;
-    font-family: Be Vietnam Pro;
     font-size: 24px;
     font-weight: bold;
     line-height: 27px;
@@ -991,7 +949,7 @@ a:active {
     height: 48px;
     padding: 12px;
     border-radius: 6px;
-    border: 1px solid #F1F1F3
+    border: 1px solid #f1f1f3;
 }
 
 .f-item i {
@@ -999,7 +957,7 @@ a:active {
     height: 24px;
     padding: 4px;
     border-radius: 4px;
-    background: #FFF4E5;
+    background: #fff4e5;
     font-size: 16px;
     color: #262626;
 }
@@ -1009,11 +967,193 @@ a:active {
     height: 57px;
     padding: 18px 24px 18px 24px;
     border-radius: 0px 0px 8px 8px;
-    background: #FF9500;
+    background: #ff9500;
     text-align: center;
     margin-top: 2px;
 }
 
-.pri-btn a{
+.pri-btn a {
     color: #ffffff;
+}
+
+.faq-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    width: 1379px;
+    height: 1020px;
+    top: 566px;
+    left: 81px;
+    padding: 80px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.faq-text {
+    width: 432px;
+    height: 237px;
+}
+
+.faq-text div {
+    width: 408px;
+    height: 148px;
+}
+
+.faq-text div h1 {
+    width: 408px;
+    height: 92px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    text-align: left;
+    color: #262626;
+}
+
+.faq-text div p {
+    width: 408px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.faq-text a {
+    position: relative;
+    width: 130px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    top: 53px;
+}
+
+.faq-items-container {
+    width: 681px;
+    height: 860px;
+}
+
+.ans-div {
+    width: 681px;
+    height: 352px;
+    padding: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3;
+}
+
+.qus {
+    width: 599px;
+    height: 64px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid #F1F1F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qus h1 {
+    width: 477px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #262626;
+}
+
+.qus i {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #FFF4E5;
+    text-align: center;
+    font-size: 22px;
+}
+
+.ans p {
+    width: 599px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #4c4c4d;
+    margin-top: 40px;
+}
+
+.sug {
+    margin-top: 40px;
+    width: 599px;
+    height: 80px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 6px;
+    background: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sug h1 {
+    width: 455px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.sug i {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+.faq-item {
+    width: 681px;
+    height: 92px;
+    margin-top: 30px;
+    padding: 24px 40px 24px 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item h1 {
+    width: 467px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #262626;    
+}
+
+.faq-item i {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 6px;
+    background: #fff4e5;
+    text-align: center;
+    font-size: 22px;
 }
