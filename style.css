@@ -644,7 +644,7 @@ a:active {
     color: #4C4C4D;
 }
 
-.img-btn{
+.img-btn {
     width: 549.5px;
     height: 49px;
     padding: 14px 24px 14px 24px;
@@ -662,12 +662,138 @@ a:active {
 
 .row-1,
 .row-2,
-.row-3{
+.row-3 {
     display: flex;
     justify-content: space-between;
 }
 
 .row-2,
-.row-3{
+.row-3 {
+    margin-top: 30px;
+}
+
+.testimonial-container {
+    position: relative;
+    width: 1379px;
+    height: 702px;
+    top: 390px;
+    left: 81px;
+    gap: 60px;
+}
+
+.testimonial-text {
+    display: flex;
+    justify-content: space-between;
+    width: 1379px;
+    height: 109px;
+}
+
+.testimonial-text a {
+    align-self: flex-end;
+}
+
+.testimonial-text div {
+    width: 933px;
+    height: 109px;
+}
+
+.testimonial-text h1 {
+    width: 933px;
+    height: 57px;
+    font-family: Be Vietnam Pro;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #262626;
+}
+
+.testimonial-text div p {
+    width: 933px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #59595A;
+
+}
+
+.testimonial-text a {
+    width: 96px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    color: #262626;
+}
+
+.t-item {
+    width: 673.5px;
+    height: 250px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3;
+}
+
+.t-para {
+    width: 673.5px;
+    height: 152px;
+    padding: 40px;
+}
+
+.t-para p {
+    width: 549.5px;
+    height: 72px;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.about-t {
+    width: 673px;
+    height: 98px;
+    padding: 24px 40px 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3
+}
+
+.about-t div:first-child {
+    width: 433.5px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    line-height: 49px;
+}
+
+.about-t div:last-child {
+    width: 160px;
+    height: 49px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 6px;
+    background: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    text-align: center;
+}
+
+.about-t div a {
+    color: #262626;
+}
+
+.row_1,
+.row_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_2{
     margin-top: 30px;
 }
