@@ -68,38 +68,8 @@ header {
 .logo {
     width: 44px;
     height: 44px;
-    padding: 5.7px;
     margin-right: 50px;
     border-radius: 8px 0px 0px 0px;
-    opacity: 0px;
-    background: #ff9500;
-}
-
-.shape {
-    width: 32.59px;
-    height: 32.59px;
-    padding: 3.4px 2.72px 2.72px 3.4px;
-}
-
-.shape-17 {
-    width: 26.48px;
-    height: 26.48px;
-    background: #ffffff;
-    clip-path: polygon(37% 0,
-            76% 0,
-            44% 38%,
-            82% 60%,
-            44% 100%,
-            0 100%,
-            37% 64%,
-            0 41%);
-}
-
-.shape-17-1 {
-    width: 8px;
-    height: 2px;
-    background: #ff9500;
-    z-index: 1;
 }
 
 .link-container {
@@ -470,6 +440,7 @@ a:active {
     border-radius: 6px;
     background: #fcfcfd;
     border: 1px solid #f1f1f3;
+    color: #262626;
 }
 
 .item a i {
@@ -574,13 +545,13 @@ a:active {
 .time div {
     display: flex;
     justify-content: space-between;
-    width: 185px;
+    width: 220px;
     height: 34px;
     margin-top: 24px;
 }
 
 .time div li {
-    width: 90px;
+    width: 110px;
     height: 34px;
     padding: 8px 14px 8px 14px;
     border-radius: 6px;
