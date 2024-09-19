@@ -2,19 +2,6 @@
 @import url(./header.css);
 @import url(./footer.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: Be Vietnam Pro;
-}
-
-body {
-    background: #f1f1f3;
-}
-
 .hero-section {
     width: 941px;
     height: 265px;

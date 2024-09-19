@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Be Vietnam Pro;
+}
+
+body {
+    background: #f1f1f3;
+}
+
 header {
     width: 1490px;
     height: 122px;
