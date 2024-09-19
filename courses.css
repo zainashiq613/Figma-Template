@@ -37,3 +37,141 @@
     text-align: left;
     color: #59595a;
 }
+
+footer {
+    top: 282px;
+}
+
+.courses-items {
+    position: relative;
+    width: 1380px;
+    height: 4323px;
+    top: 182px;
+    left: 80px;
+    border: 1px solid #000;
+}
+
+.item {
+    width: 1380px;
+    height: 823px;
+    padding: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.item-text {
+    width: 1300px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-text div {
+    width: 1131px;
+    height: 84px;
+}
+
+.item-text div h1 {
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #262626;
+}
+
+.item-text div p {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #59595a;
+}
+
+.item-text a {
+    width: 133px;
+    height: 49px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 6px;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    color: #262626;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}
+
+.img-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.time {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    height: 36px;
+}
+
+.time div:first-child {
+    width: 192px;
+    height: 36px;
+    display: flex;
+}
+
+.time div:first-child li {
+    width: 104px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3;
+}
+
+.time div:last-child h3 {
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.77px;
+    text-align: left;
+    color: #262626;
+}
+
+.curriculum {
+    margin-top: 40px;
+    width: 1300px;
+    height: 209px;
+    border-radius: 10px;
+    border: 1px solid #F1F1F3;
+}
+
+.curriculum div:first-child {
+    width: 1300px;
+    height: 67px;
+    padding: 20px 24px;
+    border-bottom: 1px solid #F1F1F3;
+}
+
+.curriculum div:first-child h1 {
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #262626;
+}
+
+.curriculum div:last-child {
+    width: 1300px;
+    height: 142px;
+    padding: 24px 40px 24px 40px;
+    border-radius: 12px;
+}
