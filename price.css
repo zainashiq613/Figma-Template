@@ -1,0 +1,203 @@
+.pricing-container {
+    position: relative;
+    width: 1379px;
+    height: 1151px;
+    top: 465px;
+    left: 81px;
+}
+
+.pricing-text {
+    display: flex;
+    justify-content: space-between;
+    width: 1379px;
+    height: 129px;
+}
+
+.pricing-text a {
+    align-self: flex-end;
+}
+
+.pricing-text div:first-child {
+    width: 933px;
+    height: 109px;
+}
+
+.pricing-text div:first-child h1 {
+    width: 933px;
+    height: 57px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #262626;
+}
+
+.pricing-text div:first-child p {
+    width: 933px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #59595a;
+}
+
+.pricing-text div:last-child {
+    align-self: flex-end;
+    width: 220px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.pricing-text div:last-child a:first-child {
+    width: 104px;
+    height: 45px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 6px;
+    background: #ff9500;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+
+.pricing-text div:last-child a:last-child {
+    width: 92px;
+    height: 45px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #4c4c4d;
+}
+
+.pricing-item {
+    position: relative;
+    top: 60px;
+    width: 1379px;
+    height: 982px;
+    padding: 50px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.pri-row-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pri-item {
+    width: 599.5px;
+    height: 882px;
+    padding: 40px 24px 24px 24px;
+    border-radius: 12px;
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
+}
+
+.name {
+    width: 526.5px;
+    height: 50px;
+    padding: 10px 22px 10px 22px;
+    border-radius: 4px;
+    background: #fff9f0;
+    border: 1px solid #ffeacc;
+}
+
+.name h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.42px;
+    text-align: center;
+}
+
+.price {
+    position: relative;
+    top: 50px;
+    width: 526.5px;
+    height: 44px;
+    text-align: center;
+}
+
+.price span {
+    font-size: 44px;
+    color: #4c4c4d;
+}
+
+.price p {
+    color: #4c4c4d;
+    line-height: 39px;
+}
+
+.feature-container {
+    width: 526.5px;
+    height: 534px;
+    margin-top: 100px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.feature-container h3 {
+    width: 486.5px;
+    height: 27px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    color: #262626;
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.feature-item {
+    width: 526.5px;
+    height: 456px;
+    padding: 0px 30px 0px 30px;
+}
+
+.f-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 466.5px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #f1f1f3;
+}
+
+.f-item i {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 4px;
+    background: #fff4e5;
+    font-size: 16px;
+    color: #262626;
+}
+
+.pri-btn {
+    width: 526.5px;
+    height: 57px;
+    padding: 18px 24px 18px 24px;
+    border-radius: 0px 0px 8px 8px;
+    background: #ff9500;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.pri-btn a {
+    color: #ffffff;
+}
