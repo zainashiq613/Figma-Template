@@ -2,3 +2,265 @@
 @import url(./header.css);
 @import url(./footer.css);
 
+
+.signup-container {
+    position: relative;
+    width: 1379px;
+    height: 732px;
+    top: 80px;
+    left: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.signup-left {
+    width: 673.5px;
+    height: 509px;
+}
+
+.signup-left div:first-child {
+    width: 673.5px;
+    height: 121px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.t-item {
+    width: 673.5px;
+    height: 250px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #f1f1f3;
+}
+
+.t-para {
+    width: 673.5px;
+    height: 152px;
+    padding: 40px;
+}
+
+.t-para p {
+    width: 549.5px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.about-t {
+    width: 673px;
+    height: 98px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #fcfcfd;
+    border: 1px solid #f1f1f3;
+}
+
+.about-t div:first-child {
+    width: 433.5px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    line-height: 49px;
+}
+
+.about-t div:last-child {
+    width: 160px;
+    height: 49px;
+}
+
+.about-t div a {
+    position: relative;
+    bottom: 16px;
+    padding: 14px 18px;
+    color: #262626;
+    border-radius: 6px;
+    background: #f7f7f8;
+    border: 1px solid #f1f1f3;
+    text-align: center;
+}
+
+.signup-left div:last-child {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.signup-left div:last-child i {
+    width: 54px;
+    height: 54px;
+    padding: 15px 17px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    font-size: 23px;
+}
+
+.signup-right {
+    width: 640px;
+    height: 732px;
+    padding: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+
+.details {
+    width: 560px;
+    height: 536px;    
+}
+
+.signup-text {
+    margin-bottom: 25px;
+    width: 560px;
+    height: 76px;
+    text-align: center;
+}
+
+.email,
+.password {
+    width: 560px;
+    height: 98px;
+    margin: 10px 0 10px 0;
+}
+
+.email label,
+.password label {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+}
+
+.email input,
+.password input {
+    width: 560px;
+    height: 64px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;
+}
+
+.password i {
+    position: absolute;
+    cursor: pointer;
+    top: 295px;
+    right: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #262626;
+}
+
+.check {
+    width: 20px;
+    height: 16px;
+    margin: 10px 0 22px 0;
+}
+
+.check a {
+    color: #262626;
+    border-bottom: 1px solid #656567;
+}
+
+.sign-btn {
+    cursor: pointer;
+    width: 560px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px;
+    background: #FF9500;
+    color: #FFFFFF;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    border: 0px;
+}
+
+.hr {
+    margin: 10px 0;
+    width: 560px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.hr h1 {
+    margin: 0 12px;
+    width: 20px;
+    height: 21px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #98989a;
+}
+
+.hr div {
+    width: 256px;
+    height: 1.4px;
+    background: #98989a;
+}
+
+.g-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 560px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px;
+    background: #F7F7F8;
+    color: #262626;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    border: 0px;
+    margin: 10px 0 24px 0;
+}
+
+.log-in {
+    width: 560px;
+    height: 24px;
+    text-align: center;
+}
+
+.log-in h3 {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #262626;
+}
+
+.log-in a {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 1px solid #262626;
+    color: #262626;
+}
+
+.log-in a i {
+    rotate: -45deg;
+}
+
+footer {
+    top: 170px;
+}

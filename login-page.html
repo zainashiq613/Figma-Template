@@ -1,82 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./login-page.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Login-Page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Log-In</title>
+  </head>
+  <body>
     <header>
-        <div class="top-banner">
-          <h1>
-            Free Courses 🌟 Sale Ends Soon, Get It Now &nbsp; &nbsp; &nbsp;
-            <i class="fa-solid fa-arrow-right"></i>
-          </h1>
+      <div class="top-banner">
+        <h1>
+          Free Courses 🌟 Sale Ends Soon, Get It Now &nbsp; &nbsp; &nbsp;
+          <i class="fa-solid fa-arrow-right"></i>
+        </h1>
+      </div>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <img src="./Images/web-logo.png" alt="" />
+          </div>
+          <div class="link-container">
+            <a href="./zain.html">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About Us</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+          </div>
         </div>
-        <nav class="navbar">
-          <div class="container">
-            <div class="logo">
-              <img src="./Images/web-logo.png" alt="">
-            </div>
-            <div class="link-container">
-              <a href="./zain.html">Home</a>
-              <a href="#">Courses</a>
-              <a href="#">About Us</a>
-              <a href="#">Pricing</a>
-              <a href="#">Contact</a>
-            </div>
-          </div>
-          <div class="login">
-            <a href="#" class="signup-btn">Sign Up</a>
-            <a href="#" class="login-btn">Login</a>
-          </div>
-        </nav>
+        <div class="login">
+          <a href="#" class="signup-btn">Sign Up</a>
+          <a href="#" class="login-btn">Login</a>
+        </div>
+      </nav>
     </header>
+    <div class="signup-container">
+      <div class="signup-left">
+        <div>
+          <h1>Students Testimonials</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
+            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum
+            eget habitasse in velit fringilla feugiat senectus in.
+          </p>
+        </div>
+        <div class="t-item">
+          <div class="t-para">
+            <p>
+              The web design course provided a solid foundation for me. The
+              instructors were knowledgeable and supportive, and the interactive
+              learning environment was engaging. I highly recommend it!
+            </p>
+          </div>
+          <div class="about-t">
+            <div>
+              <img src="./Images/sarah.png" />
+              <p>Sarah L</p>
+            </div>
+            <div>
+              <a href="#">Read Full Story</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <i class="fa-solid fa-arrow-left"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+      <div class="signup-right">
+        <div class="signup-text">
+          <h1>Login</h1>
+          <p>Welcome back! Please log in to access your account.</p>
+        </div>
+        <div class="details">
+          <div class="email">
+            <label for="email">Email Address</label>
+            <br />
+            <input type="email" id="email" required />
+          </div>
+          <div class="password">
+            <label for="password">Password</label>
+            <br />
+            <input type="password" id="password" required />
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+          <input type="checkbox" id="check" class="check" required />
+          <label for="check" class="check"
+            >Remember Me</label
+          >
+          <br />
+          <button class="sign-btn">Login</button>
+          <div class="hr">
+            <div></div>
+            <h1>OR</h1>
+            <div></div>
+          </div>
+          <button class="g-btn"> <img src="./Images/google-icon.png"> &nbsp;&nbsp; Login with Google</button>
+          <div class="log-in">
+            <h3>Don’t have an account? <a href="#">Sign Up <i class="fa-solid fa-arrow-right"></i></a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
-        <div class="footer">
-          <div class="footer-left">
-            <img src="./Images/web-logo.png">
-            <li><a href="#"> <i class="fa-solid fa-envelope"></i> &nbsp; zainashiq.613@gmail.com</a></li>
-            <li><a href="#"> <i class="fa-solid fa-phone"></i> &nbsp; +92 3140464946</a></li>
-            <li><a href="#"> <i class="fa-solid fa-location-dot"></i> &nbsp; Lahore</a></li>
+      <div class="footer">
+        <div class="footer-left">
+          <img src="./Images/web-logo.png" />
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-envelope"></i> &nbsp;
+              zainashiq.613@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-phone"></i> &nbsp; +92 3140464946</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-location-dot"></i> &nbsp; Lahore</a
+            >
+          </li>
+        </div>
+        <div class="footer-right">
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Benefits</a></li>
+              <li><a href="#">Our Courses</a></li>
+              <li><a href="#">Our Testimonials</a></li>
+              <li><a href="#">Our FAQ</a></li>
+            </ul>
           </div>
-          <div class="footer-right">
-            <div class="footer-links">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Benefits</a></li>
-                <li><a href="#">Our Courses</a></li>
-                <li><a href="#">Our Testimonials</a></li>
-                <li><a href="#">Our FAQ</a></li>
-              </ul>
-            </div>
-            <div class="footer-about-links">
-              <ul>
-                <li><a href="#">Abouts Us</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">Our Goals</a></li>
-              </ul>
-            </div>
-            <div class="social-links">
-              <h1>Social Profiles</h1>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
+          <div class="footer-about-links">
+            <ul>
+              <li><a href="#">Abouts Us</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Achievements</a></li>
+              <li><a href="#">Our Goals</a></li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <h1>Social Profiles</h1>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
-        
-        <hr color="#f2f2f3">
-    
-        <div class="copyright">
-          <p>© 2023 Skillbridge. All rights reserved.</p>
-        </div>
-    
+      </div>
+
+      <hr color="#f2f2f3" />
+
+      <div class="copyright">
+        <p>© 2023 Skillbridge. All rights reserved.</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
