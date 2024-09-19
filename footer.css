@@ -1,0 +1,137 @@
+footer {
+    position: relative;
+    width: 99.9%;
+    height: 355px;
+    top: 666px;
+    left: 1px;
+    padding: 60px 80px 20px 80px;
+    background: #FFFFFF;
+}
+
+.footer {
+    width: 1378px;
+    height: 174px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 304px;
+    height: 174px;
+}
+
+.footer-left li {
+    margin-top: 20px;
+}
+
+.footer-left li a {
+    color: #262626;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    width: 737px;
+    height: 157px;
+}
+
+.footer-links {
+    width: 229.67px;
+    height: 157px;
+}
+
+.footer-links ul li {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.footer-links ul li:first-child a {
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #262626;
+}
+
+.footer-links ul li a {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+}
+
+.footer-about-links {
+    width: 229.67px;
+    height: 157px;
+}
+
+.footer-about-links ul li {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.footer-about-links ul li:first-child a {
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #262626;
+}
+
+.footer-about-links ul li a {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+}
+
+.social-links {
+    margin-right: 3px;
+}
+
+.social-links h1 {
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.social-links a {
+    position: relative;
+    top: 11px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 6px;
+    background: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    color: #262626;
+}
+
+hr {
+    position: relative;
+    top: 40px;
+    bottom: 20px;
+}
+
+.copyright {
+    position: relative;
+    top: 70px;
+    height: 29px;
+}
+
+.copyright p {
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #656565;
+}
