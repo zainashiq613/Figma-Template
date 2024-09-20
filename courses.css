@@ -153,14 +153,14 @@ footer {
     border: 1px solid #F1F1F3;
 }
 
-.curriculum div:first-child {
+.curriculum-text {
     width: 1300px;
     height: 67px;
     padding: 20px 24px;
     border-bottom: 1px solid #F1F1F3;
 }
 
-.curriculum div:first-child h1 {
+.curriculum-text h1 {
     font-family: Be Vietnam Pro;
     font-size: 18px;
     font-weight: 600;
@@ -169,9 +169,41 @@ footer {
     color: #262626;
 }
 
-.curriculum div:last-child {
+.details-container {
     width: 1300px;
     height: 142px;
-    padding: 24px 40px 24px 40px;
+    padding: 24px 80px;
     border-radius: 12px;
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+}
+
+.details {
+    width: 300px;
+    height: 94px;
+    border-right: 1px solid #f1f1f3;
+    padding: 0 40px 0 0;
+}
+
+.details h1 {
+    font-family: Be Vietnam Pro;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+    color: #262626;
+}
+
+.details p {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.details-container div:last-child{
+    border: 0;
 }
