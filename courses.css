@@ -39,16 +39,15 @@
 }
 
 footer {
-    top: 282px;
+    top: 244px;
 }
 
 .courses-items {
     position: relative;
     width: 1380px;
-    height: 4323px;
+    height: fit-content;
     top: 182px;
     left: 80px;
-    border: 1px solid #000;
 }
 
 .item {
@@ -56,6 +55,7 @@ footer {
     height: 823px;
     padding: 40px;
     border-radius: 10px;
+    margin-bottom: 40px;
     background: #FFFFFF;
 }
 
@@ -172,7 +172,7 @@ footer {
 .details-container {
     width: 1300px;
     height: 142px;
-    padding: 24px 80px;
+    padding: 24px 50px;
     border-radius: 12px;
     display: flex;
     gap: 90px;
@@ -180,12 +180,14 @@ footer {
 }
 
 .details {
-    width: 300px;
+    text-align: center;
+    width: 500px;
     height: 94px;
-    border-right: 1px solid #f1f1f3;
-    padding: 0 40px 0 0;
 }
-
+hr{
+    margin-top: -50px;
+    height: 100px;
+}
 .details h1 {
     font-family: Be Vietnam Pro;
     font-size: 40px;
