@@ -1,6 +1,6 @@
 .pricing-container {
     position: relative;
-    width: 1379px;
+    width: 89vw;
     height: 1151px;
     top: 465px;
     left: 81px;
@@ -9,7 +9,7 @@
 .pricing-text {
     display: flex;
     justify-content: space-between;
-    width: 1379px;
+    width: 100%;
     height: 129px;
 }
 
@@ -83,7 +83,7 @@
 .pricing-item {
     position: relative;
     top: 60px;
-    width: 1379px;
+    width: 89vw;
     height: 982px;
     padding: 50px;
     border-radius: 12px;
@@ -97,7 +97,7 @@
 }
 
 .pri-item {
-    width: 599.5px;
+    width: 549.5px;
     height: 882px;
     padding: 40px 24px 24px 24px;
     border-radius: 12px;
@@ -106,7 +106,7 @@
 }
 
 .name {
-    width: 526.5px;
+    width: 99%;
     height: 50px;
     padding: 10px 22px 10px 22px;
     border-radius: 4px;
@@ -140,7 +140,7 @@
 }
 
 .feature-container {
-    width: 526.5px;
+    width: 500.5px;
     height: 534px;
     margin-top: 100px;
     text-align: center;
@@ -148,7 +148,7 @@
 }
 
 .feature-container h3 {
-    width: 486.5px;
+    width: 466.5px;
     height: 27px;
     font-size: 24px;
     font-weight: bold;
@@ -161,7 +161,7 @@
 }
 
 .feature-item {
-    width: 526.5px;
+    width: 100%;
     height: 456px;
     padding: 0px 30px 0px 30px;
 }
@@ -171,7 +171,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 20px;
-    width: 466.5px;
+    width: 436.5px;
     height: 48px;
     padding: 12px;
     border-radius: 6px;
@@ -189,7 +189,7 @@
 }
 
 .pri-btn {
-    width: 526.5px;
+    width: 100%;
     height: 57px;
     padding: 18px 24px 18px 24px;
     border-radius: 0px 0px 8px 8px;

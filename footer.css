@@ -9,7 +9,7 @@ footer {
 }
 
 .footer {
-    width: 1378px;
+    width: 90vw;
     height: 174px;
     display: flex;
     justify-content: space-between;

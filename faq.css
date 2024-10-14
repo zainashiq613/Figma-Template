@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     gap: 80px;
-    width: 1379px;
+    width: 89vw;
     height: 1020px;
     top: 566px;
     left: 81px;
@@ -13,7 +13,8 @@
 }
 
 .faq-text {
-    width: 432px;
+    border: 1px solid #000;
+    width: 402px;
     height: 237px;
 }
 
@@ -60,12 +61,13 @@
 }
 
 .faq-items-container {
-    width: 681px;
+    border: 1px solid #000;
+    width: 621px;
     height: 860px;
 }
 
 .ans-div {
-    width: 681px;
+    width: 100%;
     height: 352px;
     padding: 40px;
     border-radius: 10px;
@@ -74,7 +76,7 @@
 }
 
 .qus {
-    width: 599px;
+    width: 530px;
     height: 64px;
     padding: 0px 0px 20px 0px;
     border-bottom: 1px solid #F1F1F3;
@@ -83,7 +85,7 @@
 }
 
 .qus h1 {
-    width: 477px;
+    width: 457px;
     height: 27px;
     font-size: 18px;
     font-weight: 500;
@@ -103,7 +105,7 @@
 }
 
 .ans p {
-    width: 599px;
+    width: 530px;
     height: 48px;
     font-size: 16px;
     font-weight: 400;
@@ -116,7 +118,7 @@
 
 .sug {
     margin-top: 40px;
-    width: 599px;
+    width: 530px;
     height: 80px;
     padding: 16px 24px 16px 24px;
     border-radius: 6px;
@@ -148,7 +150,7 @@
 }
 
 .faq-item {
-    width: 681px;
+    width: 100%;
     height: 92px;
     margin-top: 30px;
     padding: 24px 40px 24px 40px;

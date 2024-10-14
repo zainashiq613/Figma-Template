@@ -5,12 +5,10 @@
 @import url(./faq.css);
 
 .hero-section {
-    width: 941px;
+    width: 60vw;
     height: 265px;
     margin-top: 100px;
-    margin-left: 450px;
-    gap: 50px;
-    opacity: 0px;
+    margin-left: 350px;
 }
 
 .data-container {
@@ -162,7 +160,7 @@
 .logo-container {
     display: flex;
     position: relative;
-    width: 1390px;
+    width: 89vw;
     height: 116px;
     top: 87px;
     left: 81px;
@@ -173,7 +171,7 @@
 }
 
 .card {
-    width: 200.86px;
+    width: 180px;
     border-right: 1px solid #f1f1f3;
     height: 68px;
     line-height: 58px;
@@ -191,7 +189,7 @@
 
 .benefits {
     position: relative;
-    width: 1380px;
+    width: 89vw;
     height: 649px;
     top: 166px;
     left: 80px;
@@ -208,7 +206,7 @@
 
 .benefits-container {
     position: relative;
-    width: 1379px;
+    width: 89vw;
     height: 935px;
     top: 250px;
     left: 80px;
@@ -217,7 +215,7 @@
 .benefits-text {
     display: flex;
     justify-content: space-between;
-    width: 1379px;
+    width: 100%;
     height: 129px;
 }
 
@@ -262,12 +260,12 @@
 .benefits-item {
     position: relative;
     top: 60px;
-    width: 1379px;
+    width: 89vw;
     height: 719px;
 }
 
 .item {
-    width: 439px;
+    width: 384px;
     height: 346px;
     padding: 40px;
     gap: 40px;
@@ -310,7 +308,7 @@
 .item a {
     position: relative;
     top: 80px;
-    left: 289px;
+    left: 240px;
     padding: 14px;
     border-radius: 6px;
     background: #fcfcfd;
@@ -332,7 +330,7 @@
 
 .courses-container {
     position: relative;
-    width: 1379px;
+    width: 89vw;
     height: 2049px;
     top: 267px;
     left: 81px;
@@ -341,7 +339,7 @@
 .courses-text {
     display: flex;
     justify-content: space-between;
-    width: 1379px;
+    width: 100%;
     height: 128px;
 }
 
@@ -386,12 +384,12 @@
 .courses-item {
     position: relative;
     top: 60px;
-    width: 1379px;
+    width: 89vw;
     height: 719px;
 }
 
 .c-item {
-    width: 673.7px;
+    width: 573px;
     height: 613px;
     padding: 40px;
     border-radius: 10px;
@@ -400,7 +398,7 @@
 }
 
 .img-container img {
-    width: 549.5px;
+    width: 100%;
     height: 266px;
     border-radius: 8px;
 }
@@ -413,7 +411,7 @@
 .time {
     display: flex;
     justify-content: space-between;
-    width: 610.5px;
+    width: 100%;
     height: 34px;
 }
 
@@ -439,13 +437,13 @@
 }
 
 .img-para {
-    width: 549.5px;
+    width: 530.5px;
     height: 112px;
     margin-top: 45px;
 }
 
 .img-para h2 {
-    width: 549.5px;
+    width: 100%;
     height: 30px;
     font-size: 20px;
     font-weight: 600;
@@ -455,7 +453,7 @@
 }
 
 .img-para p {
-    width: 549.5px;
+    width: 100%;
     height: 72px;
     font-size: 16px;
     font-weight: 400;
@@ -465,7 +463,7 @@
 }
 
 .img-btn {
-    width: 549.5px;
+    width: 492.5px;
     height: 49px;
     padding: 14px 24px 14px 24px;
     border-radius: 6px;
@@ -494,7 +492,7 @@
 
 .testimonial-container {
     position: relative;
-    width: 1379px;
+    width: 89vw;
     height: 702px;
     top: 390px;
     left: 81px;
@@ -504,7 +502,7 @@
 .testimonial-text {
     display: flex;
     justify-content: space-between;
-    width: 1379px;
+    width: 100%;
     height: 128px;
 }
 
@@ -549,12 +547,12 @@
 .testimonial-item {
     position: relative;
     top: 60px;
-    width: 1379px;
+    width: 89vw;
     height: 719px;
 }
 
 .t-item {
-    width: 673.5px;
+    width: 573.5px;
     height: 250px;
     border-radius: 10px;
     background: #ffffff;
@@ -562,13 +560,13 @@
 }
 
 .t-para {
-    width: 673.5px;
+    width: 573.5px;
     height: 152px;
     padding: 40px;
 }
 
 .t-para p {
-    width: 549.5px;
+    width: 499.5px;
     height: 72px;
     font-size: 16px;
     font-weight: 400;
@@ -577,7 +575,7 @@
 }
 
 .about-t {
-    width: 673px;
+    width: 573px;
     height: 98px;
     padding: 24px 40px 24px 40px;
     display: flex;
@@ -587,7 +585,7 @@
 }
 
 .about-t div:first-child {
-    width: 433.5px;
+    width: 423.5px;
     height: 50px;
     display: flex;
     gap: 10px;
@@ -595,7 +593,7 @@
 }
 
 .about-t div:last-child {
-    width: 160px;
+    width: 200px;
     height: 49px;
     padding: 14px 16px 14px 16px;
     border-radius: 6px;
