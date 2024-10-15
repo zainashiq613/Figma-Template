@@ -5,7 +5,7 @@
 
 .signup-container {
     position: relative;
-    width: 1379px;
+    width: 89vw;
     height: 732px;
     top: 80px;
     left: 81px;
@@ -16,19 +16,19 @@
 }
 
 .signup-left {
-    width: 673.5px;
+    width: 603.5px;
     height: 509px;
 }
 
 .signup-left div:first-child {
-    width: 673.5px;
+    width: 603.5px;
     height: 121px;
     margin-top: 5px;
     margin-bottom: 30px;
 }
 
 .t-item {
-    width: 673.5px;
+    width: 603.5px;
     height: 250px;
     border-radius: 10px;
     background: #ffffff;
@@ -36,13 +36,13 @@
 }
 
 .t-para {
-    width: 673.5px;
+    width: 603.5px;
     height: 152px;
     padding: 40px;
 }
 
 .t-para p {
-    width: 549.5px;
+    width: 509.5px;
     height: 72px;
     font-size: 16px;
     font-weight: 400;
@@ -51,7 +51,7 @@
 }
 
 .about-t {
-    width: 673px;
+    width: 603px;
     height: 98px;
     padding: 20px 40px;
     display: flex;
@@ -75,6 +75,7 @@
 
 .about-t div a {
     position: relative;
+    width: 200px;
     bottom: 16px;
     padding: 14px 18px;
     color: #262626;
@@ -102,7 +103,7 @@
 }
 
 .signup-right {
-    width: 640px;
+    width: 560px;
     height: 732px;
     padding: 40px;
     border-radius: 10px;
@@ -111,20 +112,20 @@
 }
 
 .details {
-    width: 560px;
+    width: 500px;
     height: 536px;    
 }
 
 .signup-text {
     margin-bottom: 25px;
-    width: 560px;
+    width: 500px;
     height: 76px;
     text-align: center;
 }
 
 .email,
 .password {
-    width: 560px;
+    width: 500px;
     height: 98px;
     margin: 10px 0 10px 0;
 }
@@ -141,7 +142,7 @@
 
 .email input,
 .password input {
-    width: 560px;
+    width: 500px;
     height: 64px;
     padding: 20px;
     border-radius: 8px;
@@ -153,7 +154,7 @@
     position: absolute;
     cursor: pointer;
     top: 295px;
-    right: 45px;
+    right: 10px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -173,7 +174,7 @@
 
 .sign-btn {
     cursor: pointer;
-    width: 560px;
+    width: 500px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 8px;
@@ -189,7 +190,7 @@
 
 .hr {
     margin: 10px 0;
-    width: 560px;
+    width: 500px;
     height: 21px;
     display: flex;
     align-items: center;
@@ -218,7 +219,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    width: 560px;
+    width: 500px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 8px;
@@ -233,7 +234,7 @@
 }
 
 .log-in {
-    width: 560px;
+    width: 500px;
     height: 24px;
     text-align: center;
 }
