@@ -50,7 +50,7 @@ header {
     height: 81px;
     padding: 16px 60px 20px 60px;
     gap: 0px;
-    border: 0px 0px 1px 0px;
+    border-radius: 1px;
     opacity: 0px;
     border-bottom: 1px solid #f1f1f3;
 }
@@ -123,7 +123,7 @@ a:active {
     height: 45px;
     padding: 12px 24px 12px 24px;
     gap: 8px;
-    border-radius: 6px 0px 0px 0px;
+    border-radius: 6px;
     color: #262626;
     opacity: 0px;
     background: #ff9500;
