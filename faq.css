@@ -13,7 +13,6 @@
 }
 
 .faq-text {
-    border: 1px solid #000;
     width: 402px;
     height: 237px;
 }
@@ -61,7 +60,6 @@
 }
 
 .faq-items-container {
-    border: 1px solid #000;
     width: 621px;
     height: 860px;
 }

@@ -102,6 +102,8 @@ a:active {
     width: 178px;
     height: 45px;
     line-height: 21px;
+    display: flex;
+    align-items: center;
 }
 
 .signup-btn {

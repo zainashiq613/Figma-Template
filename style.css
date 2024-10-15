@@ -99,7 +99,7 @@
 }
 
 .text-container {
-    width: 941px;
+    width: 841px;
     height: 72px;
     gap: 6px;
 }
@@ -171,7 +171,7 @@
 }
 
 .card {
-    width: 180px;
+    width: 170px;
     border-right: 1px solid #f1f1f3;
     height: 68px;
     line-height: 58px;
@@ -322,7 +322,7 @@
 
 .row1,
 .row2 {
-    width: 1379px;
+    width: 89vw;
     height: 370px;
     gap: 30px;
     display: flex;
