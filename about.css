@@ -5,7 +5,7 @@
 .achievements,
 .goals {
     position: relative;
-    width: 1380px;
+    width: 89vw;
     height: 699px;
     top: 80px;
     left: 80px;
@@ -17,7 +17,7 @@
 
 .achievements-text,
 .goals-text {
-    width: 1380px;
+    width: 89vw;
     height: 75px;
     margin-bottom: 10px;
 }
@@ -27,7 +27,7 @@
 }
 
 .achievements-text h1 {
-    width: 1280px;
+    width: 1180px;
     height: 45px;
     font-family: Be Vietnam Pro;
     font-size: 30px;
@@ -38,7 +38,7 @@
 }
 
 .goals-text h1 {
-    width: 1280px;
+    width: 1180px;
     height: 45px;
     font-family: Be Vietnam Pro;
     font-size: 30px;
@@ -49,7 +49,7 @@
 }
 
 .achievements-text p {
-    width: 1380px;
+    width: 86vw;
     height: 24px;
     font-family: Be Vietnam Pro;
     font-size: 16px;
@@ -60,7 +60,7 @@
 }
 
 .goals-text p {
-    width: 1380px;
+    width: 89vw;
     height: 24px;
     font-family: Be Vietnam Pro;
     font-size: 16px;
@@ -72,14 +72,14 @@
 
 .achievements-item,
 .goals-item {
-    width: 1380px;
+    width: 89vw;
     height: 564px;
     margin-top: 20px;
 }
 
 .row-1,
 .row-2 {
-    width: 1380px;
+    width: 89vw;
     height: 272px;
     display: flex;
     gap: 40px;
@@ -87,7 +87,7 @@
 }
 
 .item {
-    width: 670px;
+    width: 620px;
     height: 272px;
     padding: 40px;
     border-radius: 10px;
@@ -95,7 +95,7 @@
 }
 
 .item div {
-    width: 550px;
+    width: 510px;
     height: 88px;
 }
 
@@ -135,7 +135,7 @@
 
 .vision {
     position: relative;
-    width: 1380px;
+    width: 89vw;
     height: 250px;
     padding: 60px;
     border-radius: 10px;
@@ -147,12 +147,12 @@
 }
 
 .text {
-    width: 757px;
+    width: 727px;
     height: 130px;
 }
 
 .text h1 {
-    width: 757px;
+    width: 727px;
     height: 92px;
     font-family: Be Vietnam Pro;
     font-size: 38px;
@@ -172,7 +172,7 @@
 }
 
 .text p {
-    width: 757px;
+    width: 727px;
     height: 24px;
     gap: 0px;
     opacity: 0px;
@@ -194,7 +194,7 @@
 }
 
 .btn {
-    width: 103px;
+    width: 133px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 6px;
