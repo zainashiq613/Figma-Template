@@ -41,7 +41,7 @@
 .form {
     display: flex;
     position: relative;
-    width: 1380px;
+    width: 86vw;
     height: 766px;
     top: 190px;
     left: 80px;
@@ -50,7 +50,7 @@
 }
 
 .form-left {
-    width: 870px;
+    width: 730px;
     height: 766px;
     padding: 60px;
     border-radius: 12px;
@@ -59,7 +59,7 @@
 }
 
 .name {
-    width: 750px;
+    width: 660px;
     height: 336px;
 }
 
@@ -70,7 +70,7 @@
 }
 
 label {
-    width: 363px;
+    width: 333px;
     height: 24px;
     font-family: Be Vietnam Pro;
     font-size: 16px;
@@ -80,7 +80,7 @@ label {
 }
 
 input {
-    width: 363px;
+    width: 313px;
     height: 60px;
     padding: 20px;
     margin: 12px 0 20px 0;
@@ -90,7 +90,7 @@ input {
 }
 
 .sub input {
-    width: 750px;
+    width: 660px;
     height: 60px;
     padding: 20px;
     border-radius: 6px;
@@ -99,14 +99,14 @@ input {
 }
 
 .msg {
-    width: 750px;
+    width: 720px;
     height: 181px;
     margin-top: 40px;
 }
 
 .msg textarea {
     margin-top: 12px;
-    width: 750px;
+    width: 660px;
     height: 138px;
     padding: 20px;
     border-radius: 6px;
@@ -136,14 +136,14 @@ input {
 }
 
 .form-right {
-    width: 410px;
+    width: 420px;
     height: 766px;
-    padding: 60px;
+    padding: 30px;
     background: #FFFFFF;
 }
 
 .form-right div {
-    width: 380px;
+    width: 360px;
     height: 143.5px;
     padding: 30px;
     margin-bottom: 24px;
