@@ -44,14 +44,14 @@ footer {
 
 .courses-items {
     position: relative;
-    width: 1380px;
+    width: 89vw;
     height: fit-content;
     top: 182px;
     left: 80px;
 }
 
 .item {
-    width: 1380px;
+    width: 89vw;
     height: 823px;
     padding: 40px;
     border-radius: 10px;
@@ -60,15 +60,15 @@ footer {
 }
 
 .item-text {
-    width: 1300px;
+    width: 1150px;
     height: 84px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .item-text div {
-    width: 1131px;
+    width: 1031px;
     height: 84px;
 }
 
@@ -83,6 +83,7 @@ footer {
 
 .item-text div p {
     font-family: Be Vietnam Pro;
+    width: 1000px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -112,17 +113,21 @@ footer {
     justify-content: space-between;
 }
 
+.img-container img{
+    width: 363px;
+}
+
 .time {
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1300px;
+    width: 84vw;
     height: 36px;
 }
 
 .time div:first-child {
-    width: 192px;
+    width: 203px;
     height: 36px;
     display: flex;
 }
@@ -147,14 +152,14 @@ footer {
 
 .curriculum {
     margin-top: 40px;
-    width: 1300px;
+    width: 84vw;
     height: 209px;
     border-radius: 10px;
     border: 1px solid #F1F1F3;
 }
 
 .curriculum-text {
-    width: 1300px;
+    width: 84vw;
     height: 67px;
     padding: 20px 24px;
     border-bottom: 1px solid #F1F1F3;
@@ -170,24 +175,21 @@ footer {
 }
 
 .details-container {
-    width: 1300px;
+    width: 84vw;
     height: 142px;
-    padding: 24px 50px;
+    padding: 20px 40px;
     border-radius: 12px;
     display: flex;
-    gap: 90px;
+    gap: 50px;
     justify-content: space-between;
 }
 
 .details {
-    text-align: center;
-    width: 500px;
+    width: 160px;
     height: 94px;
+    border-right: 1px solid #F1F1F3;
 }
-hr{
-    margin-top: -50px;
-    height: 100px;
-}
+
 .details h1 {
     font-family: Be Vietnam Pro;
     font-size: 40px;
