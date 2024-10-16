@@ -5,10 +5,10 @@
 @import url(./faq.css);
 
 .hero-section {
-    width: 60vw;
-    height: 265px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: 100px;
-    margin-left: 350px;
 }
 
 .data-container {
@@ -160,7 +160,7 @@
 .logo-container {
     display: flex;
     position: relative;
-    width: 89vw;
+    width: 90%;
     height: 116px;
     top: 87px;
     left: 81px;

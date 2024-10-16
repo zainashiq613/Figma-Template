@@ -23,21 +23,25 @@
         </h1>
       </div>
       <nav class="navbar">
-        <div class="container">
-          <div class="logo">
-            <img src="./Images/web-logo.png" alt="">
-          </div>
-          <div class="link-container">
-            <a href="./home.html">Home</a>
-            <a href="./courses.html">Courses</a>
-            <a href="./about.html">About Us</a>
-            <a href="./pricing.html">Pricing</a>
-            <a href="./contact.html">Contact</a>
-          </div>
+        <div class="links">
+          <img src="./Images/web-logo.png" alt="">
+          <ul class="navbar-list">
+            <li><a class="navbar-links" href="./home.html">Home</a></li>
+            <li><a class="navbar-links" href="./courses.html">Courses</a></li>
+            <li><a class="navbar-links" href="./about.html">About Us</a></li>
+            <li><a class="navbar-links" href="./pricing.html">Pricing</a></li>
+            <li><a class="navbar-links" href="./contact.html">Contact</a></li>
+          </ul>
         </div>
-        <div class="login">
-          <a href="./signup-page.html" class="signup-btn">Sign Up</a>
-          <a href="./login-page.html" class="login-btn">Login</a>
+        <div class="toogle">
+          <div class="login">
+            <a href="./signup-page.html" class="signup-btn">Sign Up</a>
+            <a href="./login-page.html" class="login-btn">Login</a>
+          </div>
+          <div class="mobile-navbar-btn" id="toggle-btn">
+            <i class="fa-solid fa-bars" name="open"></i>
+            <i class="fa-solid fa-xmark" name="close"></i>
+          </div>
         </div>
       </nav>
     </header>

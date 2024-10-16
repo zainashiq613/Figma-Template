@@ -12,13 +12,11 @@ body {
 }
 
 header {
-    width: 96vw;
+    width: 96%;
     height: 122px;
     margin-top: 20px;
     margin-left: 20px;
-    gap: 0px;
     border-radius: 8px;
-    opacity: 0px;
 }
 
 .top-banner {
@@ -27,15 +25,12 @@ header {
     padding: 10px 0px 10px 0px;
     gap: 23px;
     border-radius: 6px;
-    opacity: 0px;
     background: #ff9500;
 }
 
 .top-banner h1 {
     height: 21px;
-    gap: 0px;
-    opacity: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     text-align: center;
@@ -44,58 +39,13 @@ header {
 
 .navbar {
     display: flex;
+    padding: 20px 20px;
     justify-content: space-between;
-    background: #ffffff;
-    width: 100%;
-    height: 81px;
-    padding: 16px 60px 20px 60px;
-    gap: 0px;
-    border-radius: 1px;
-    opacity: 0px;
-    border-bottom: 1px solid #f1f1f3;
 }
 
-.container {
+.links {
     display: flex;
-    width: 592px;
-    height: 45px;
-    margin-right: 50px;
-    opacity: 0px;
-}
-
-.logo {
-    width: 44px;
-    height: 44px;
-    margin-right: 50px;
-    border-radius: 8px 0px 0px 0px;
-}
-
-.link-container {
-    width: 498px;
-    height: 45px;
-    opacity: 0px;
-    line-height: 42px;
-}
-
-.link-container a {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    margin-right: 26px;
-    color: #262626;
-    transition: all 1s ease;
-}
-
-.link-container a:hover,
-a:active {
-    width: 80px;
-    height: 45px;
-    padding: 12px 20px 12px 20px;
-    gap: 10px;
-    border-radius: 6px 0px 0px 0px;
-    opacity: 0px;
-    background: #f1f1f3;
+    width: 467px;
 }
 
 .login {
@@ -116,6 +66,7 @@ a:active {
     font-weight: 400;
     line-height: 21px;
     text-align: left;
+    transition: all 0.5s ease;
 }
 
 .login-btn {
@@ -127,4 +78,106 @@ a:active {
     color: #262626;
     opacity: 0px;
     background: #ff9500;
+}
+
+.navbar-list {
+    display: flex;
+    line-height: 42px;
+}
+
+.navbar-links:link,
+.navbar-links:visited {
+    font-size: 16px;
+    padding: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #262626;
+    transition: all 0.5s ease;
+}
+
+.navbar-links:hover,
+.navbar-links:active {
+    color: #ff9500;
+}
+
+.signup-btn:hover,
+.signup-btn:active {
+    color: #ff9500;
+}
+
+
+.header nav ul li {
+    list-style: none;
+}
+
+.mobile-navbar-btn {
+    font-size: 20px;
+    display: none;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.fa-solid[name="close"] {
+    display: none;
+}
+
+.toogle {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+@media screen and (max-width:786px) {
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-list {
+        width: 100%;
+        height: 100vh;
+        background: #f1f1f3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        clip-path: inset(0 0 100% 0);
+        /* Hidden state */
+        transition: clip-path 0.5s ease, opacity 0.5s ease;
+        /* Ensure both clip-path and opacity animate */
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .active .navbar-list {
+        display: flex;
+        clip-path: inset(0 0 0 0);
+        /* Visible state */
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .closing .navbar {
+        clip-path: inset(0 100% 0 0);
+        /* Closing animation */
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .active .mobile-navbar-btn .fa-solid[name="close"] {
+        display: block;
+    }
+
+    .active .mobile-navbar-btn .fa-solid[name="open"] {
+        display: none;
+    }
 }
