@@ -31,8 +31,7 @@ footer {
 .footer-right {
     display: flex;
     justify-content: space-between;
-    width: 737px;
-    height: 157px;
+    width: 70%;
 }
 
 .footer-links {
@@ -95,6 +94,10 @@ footer {
     margin-right: 3px;
 }
 
+.social-links ul li {
+    display: inline-block;
+}
+
 .social-links h1 {
     font-family: Be Vietnam Pro;
     font-size: 18px;
@@ -134,4 +137,8 @@ hr {
     line-height: 29px;
     text-align: center;
     color: #656565;
+}
+
+@media screen and(max-width:1000px) {
+    
 }

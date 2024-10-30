@@ -7,7 +7,7 @@
 .hero-section {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 98%;
     margin-top: 100px;
 }
 
@@ -99,16 +99,12 @@
 }
 
 .text-container {
-    width: 841px;
+    width: 681px;
     height: 72px;
-    gap: 6px;
 }
 
 .text-container h2 {
-    width: 678px;
-    height: 42px;
     margin-top: 20px;
-    opacity: 0px;
     font-size: 30px;
     font-weight: 500;
     line-height: 42px;
@@ -117,10 +113,7 @@
 }
 
 .text-container p {
-    width: 641px;
-    height: 24px;
     margin-top: 10px;
-    opacity: 0px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -158,6 +151,7 @@
 }
 
 .logo-container {
+    overflow: hidden;
     display: flex;
     position: relative;
     width: 90%;
@@ -219,11 +213,6 @@
     height: 129px;
 }
 
-.benefits-text div {
-    width: 933px;
-    height: 109px;
-}
-
 .benefits-text h1 {
     width: 933px;
     height: 57px;
@@ -235,8 +224,6 @@
 }
 
 .benefits-text div p {
-    width: 933px;
-    height: 48px;
     gap: 0px;
     opacity: 0px;
     font-size: 16px;
@@ -248,7 +235,7 @@
 
 .benefits-text a {
     align-self: flex-end;
-    width: 103px;
+    width: 141px;
     height: 49px;
     padding: 14px 20px 14px 20px;
     border-radius: 6px;
@@ -258,8 +245,7 @@
 }
 
 .benefits-item {
-    position: relative;
-    top: 60px;
+    margin-top: 60px;
     width: 89vw;
     height: 719px;
 }
@@ -320,12 +306,12 @@
     rotate: -30deg;
 }
 
-.row1,
-.row2 {
+.row1 {
     width: 89vw;
     height: 370px;
     gap: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
 }
 
 .courses-container {
@@ -614,4 +600,69 @@
 
 .row_2 {
     margin-top: 30px;
+}
+
+@media screen and (max-width:900px) {
+    .hero-section {
+        margin-left: 40px;
+    }
+
+    .sub-container {
+        width: 580px;
+    }
+
+    .sub-container h1 {
+        font-size: 30px;
+    }
+
+    .text-container {
+        width: 580px;
+    }
+
+    .text-container h2 {
+        width: 589px;
+        font-size: 25.9px;
+    }
+
+    .logo-container {
+        left: 40px;
+        overflow: hidden;
+    }
+
+    .benefits {
+        left: 40px;
+    }
+
+    .benefits-container {
+        left: 40px;
+        width: 90%;
+    }
+
+    .benefits-text {
+        flex-direction: column;
+        height: 189px;
+    }
+
+    .benefits-text div {
+        width: 100%;
+    }
+
+    .benefits-text a {
+        align-self: flex-start;
+        width: 103px;
+    }
+
+    .benefits-container {
+        height: fit-content;
+    }
+
+    .benefits-items {
+        height: fit-content;
+        display: grid;
+    }
+
+    .courses-container {
+        left: 40px;
+        top: 1860px;
+    }
 }
