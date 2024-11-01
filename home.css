@@ -23,11 +23,10 @@
     height: 78px;
     padding: 12px 24px 12px 12px;
     gap: 10px;
-    border-radius: 8px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
+    border-radius: 8px;
     opacity: 0px;
     background: #fcfcfd;
-    border: 1px solid #f1f1f3;
+    /* border: 1px solid #f1f1f3;*/
 }
 
 .icon-container {
@@ -664,5 +663,12 @@
     .courses-container {
         left: 40px;
         top: 1860px;
+    }
+}
+
+@media screen and(max-width:750px) {
+    .sub-container{
+        border: 10px solid #000;
+        width: 40%;
     }
 }
